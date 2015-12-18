@@ -1,0 +1,21 @@
+{
+    "name": "aiddroid/flysystem-qiniu",
+    "description": "Flysystem adapter for Qiniu PHP SDK v7",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aiddroid",
+            "email": "aiddroid@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "trntv/yii2-file-kit": "~1.1.0",
+        "qiniu/php-sdk": "~7.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "aiddroid\\flysystem\\qiniu\\": "src/"
+        }
+    }
+}
